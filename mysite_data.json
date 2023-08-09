@@ -1,0 +1,977 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-07-26T06:44:52.627Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "test",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-07-26T06:54:11.624Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Model field reference",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-07-26T08:22:41.215Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "django unique",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-07-26T08:22:57.155Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "django Model field reference",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-07-26T10:59:22.985Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "unique_for_date",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-07-26T10:59:51.997Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Field types",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-07-26T11:00:11.718Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "BinaryField",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-07-26T11:00:34.036Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "BooleanField",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-07-26T13:33:11.397Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "music",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-07-26T13:34:07.505Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "The Module Search Path",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-07-26T13:34:37.468Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "“Compiled” Python files",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-07-26T13:35:28.085Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Standard Modules",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-07-27T00:11:12.418Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "markdown test",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-07-27T00:13:36.580Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "markdown test",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-07-27T00:29:50.645Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$c9WIal611nDzpnxaShyPju$LvJOeKaZbvRPSVBi5hriUMRRQ1B0fNR8nPXZr1GCBiY=",
+    "last_login": "2023-07-26T06:43:03.642Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@admin.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-07-26T06:42:38.439Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gm688wq6rgn5jif5n9qy3vdnohswbswm",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyHA2gIevfsNZJddpGrapLQn47_bJj3obTLvzbxVwnWpaW0yp4HVRVl1-u0I81PGHfADx_uk8zQu80B6V_RBm75NLK_r4f4dVGx1W2cqYLu-2DNG8Wi8syQM7EwgNhZ7gNCJxH7L0W0KMGQH3nAsORCpzxflwzf2:1qOYEh:gZE-81OMxGv-8RB2P8pnIeOUnb1F2Nfdd3AdTGHQQOI",
+    "expire_date": "2023-08-09T06:43:03.645Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "test",
+    "slug": "tes-article",
+    "author": 1,
+    "body": "from django.conf import settings\r\nfrom django.contrib.auth import get_user_model\r\nfrom django.db import models\r\n\r\ndef get_sentinel_user():\r\n    return get_user_model().objects.get_or_create(username='deleted')[0]\r\n\r\nclass MyModel(models.Model):\r\n    user = models.ForeignKey(\r\n        settings.AUTH_USER_MODEL,\r\n        on_delete=models.SET(get_sentinel_user),\r\n    )",
+    "publish": "2023-07-26T06:44:22Z",
+    "created": "2023-07-26T06:44:52.625Z",
+    "updated": "2023-07-26T06:44:52.625Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "django Model field reference",
+    "slug": "django-model-field-reference",
+    "author": 1,
+    "body": "Avoid using null on string-based fields such as CharField and TextField. If a string-based field has null=True, that means it has two possible values for “no data”: NULL, and the empty string. In most cases, it’s redundant to have two possible values for “no data;” the Django convention is to use the empty string, not NULL. One exception is when a CharField has both unique=True and blank=True set. In this situation, null=True is required to avoid unique constraint violations when saving multiple objects with blank values.\r\n\r\nFor both string-based and non-string-based fields, you will also need to set blank=True if you wish to permit empty values in forms, as the null parameter only affects database storage (see blank).",
+    "publish": "2023-07-26T06:53:12Z",
+    "created": "2023-07-26T06:54:11.623Z",
+    "updated": "2023-07-26T08:22:57.154Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "django unique",
+    "slug": "django-unique",
+    "author": 1,
+    "body": "Field.unique¶\r\nIf True, this field must be unique throughout the table.\r\n\r\nThis is enforced at the database level and by model validation. If you try to save a model with a duplicate value in a unique field, a django.db.IntegrityError will be raised by the model’s save() method.\r\n\r\nThis option is valid on all field types except ManyToManyField and OneToOneField.\r\n\r\nNote that when unique is True, you don’t need to specify db_index, because unique implies the creation of an index.",
+    "publish": "2023-07-26T08:22:22Z",
+    "created": "2023-07-26T08:22:41.213Z",
+    "updated": "2023-07-26T08:22:41.213Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "unique_for_date",
+    "slug": "unique_for_date",
+    "author": 1,
+    "body": "Field.unique_for_date¶\r\nSet this to the name of a DateField or DateTimeField to require that this field be unique for the value of the date field.\r\n\r\nFor example, if you have a field title that has unique_for_date=\"pub_date\", then Django wouldn’t allow the entry of two records with the same title and pub_date.\r\n\r\nNote that if you set this to point to a DateTimeField, only the date portion of the field will be considered. Besides, when USE_TZ is True, the check will be performed in the current time zone at the time the object gets saved.\r\n\r\nThis is enforced by Model.validate_unique() during model validation but not at the database level. If any unique_for_date constraint involves fields that are not part of a ModelForm (for example, if one of the fields is listed in exclude or has editable=False), Model.validate_unique() will skip validation for that particular constraint.",
+    "publish": "2023-07-26T10:58:56Z",
+    "created": "2023-07-26T10:59:22.983Z",
+    "updated": "2023-07-26T10:59:22.983Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Field types",
+    "slug": "field-types",
+    "author": 1,
+    "body": "AutoField¶\r\nclass AutoField(**options)¶\r\nAn IntegerField that automatically increments according to available IDs. You usually won’t need to use this directly; a primary key field will automatically be added to your model if you don’t specify otherwise. See Automatic primary key fields.",
+    "publish": "2023-07-26T10:59:34Z",
+    "created": "2023-07-26T10:59:51.996Z",
+    "updated": "2023-07-26T10:59:51.996Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "BinaryField",
+    "slug": "binaryfield",
+    "author": 1,
+    "body": "class BinaryField(max_length=None, **options)¶\r\nA field to store raw binary data. It can be assigned bytes, bytearray, or memoryview.\r\n\r\nBy default, BinaryField sets editable to False, in which case it can’t be included in a ModelForm.\r\n\r\nBinaryField.max_length¶\r\nOptional. The maximum length (in bytes) of the field. The maximum length is enforced in Django’s validation using MaxLengthValidator.",
+    "publish": "2023-07-26T10:59:59Z",
+    "created": "2023-07-26T11:00:11.717Z",
+    "updated": "2023-07-26T11:00:11.717Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "BooleanField",
+    "slug": "booleanfield",
+    "author": 1,
+    "body": "class BooleanField(**options)¶\r\nA true/false field.\r\n\r\nThe default form widget for this field is CheckboxInput, or NullBooleanSelect if null=True.\r\n\r\nThe default value of BooleanField is None when Field.default isn’t defined",
+    "publish": "2023-07-26T11:00:20Z",
+    "created": "2023-07-26T11:00:34.035Z",
+    "updated": "2023-07-26T11:00:34.035Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "The Module Search Path",
+    "slug": "the-module-search-path",
+    "author": 1,
+    "body": "When a module named spam is imported, the interpreter first searches for a built-in module with that name. These module names are listed in sys.builtin_module_names. If not found, it then searches for a file named spam.py in a list of directories given by the variable sys.path. sys.path is initialized from these locations:\r\n\r\nThe directory containing the input script (or the current directory when no file is specified).\r\n\r\nPYTHONPATH (a list of directory names, with the same syntax as the shell variable PATH).\r\n\r\nThe installation-dependent default (by convention including a site-packages directory, handled by the site module).\r\n\r\nMore details are at The initialization of the sys.path module search path.",
+    "publish": "2023-07-26T13:33:46Z",
+    "created": "2023-07-26T13:34:07.499Z",
+    "updated": "2023-07-26T13:34:07.499Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "title": "“Compiled” Python files",
+    "slug": "compiled-python-files",
+    "author": 1,
+    "body": "To speed up loading modules, Python caches the compiled version of each module in the __pycache__ directory under the name module.version.pyc, where the version encodes the format of the compiled file; it generally contains the Python version number. For example, in CPython release 3.3 the compiled version of spam.py would be cached as __pycache__/spam.cpython-33.pyc. This naming convention allows compiled modules from different releases and different versions of Python to coexist.\r\n\r\nPython checks the modification date of the source against the compiled version to see if it’s out of date and needs to be recompiled. This is a completely automatic process. Also, the compiled modules are platform-independent, so the same library can be shared among systems with different architectures.\r\n\r\nPython does not check the cache in two circumstances. First, it always recompiles and does not store the result for the module that’s loaded directly from the command line. Second, it does not check the cache if there is no source module. To support a non-source (compiled only) distribution, the compiled module must be in the source directory, and there must not be a source module.\r\n\r\nSome tips for experts:\r\n\r\nYou can use the -O or -OO switches on the Python command to reduce the size of a compiled module. The -O switch removes assert statements, the -OO switch removes both assert statements and __doc__ strings. Since some programs may rely on having these available, you should only use this option if you know what you’re doing. “Optimized” modules have an opt- tag and are usually smaller. Future releases may change the effects of optimization.\r\n\r\nA program doesn’t run any faster when it is read from a .pyc file than when it is read from a .py file; the only thing that’s faster about .pyc files is the speed with which they are loaded.\r\n\r\nThe module compileall can create .pyc files for all modules in a directory.\r\n\r\nThere is more detail on this process, including a flow chart of the decisions, in PEP 3147.",
+    "publish": "2023-07-26T13:34:13Z",
+    "created": "2023-07-26T13:34:37.464Z",
+    "updated": "2023-07-26T13:34:37.464Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 10,
+  "fields": {
+    "title": "Standard Modules",
+    "slug": "standard-modules",
+    "author": 1,
+    "body": "Python comes with a library of standard modules, described in a separate document, the Python Library Reference (“Library Reference” hereafter). Some modules are built into the interpreter; these provide access to operations that are not part of the core of the language but are nevertheless built in, either for efficiency or to provide access to operating system primitives such as system calls. The set of such modules is a configuration option which also depends on the underlying platform. For example, the winreg module is only provided on Windows systems. One particular module deserves some attention: sys, which is built into every Python interpreter. The variables sys.ps1 and sys.ps2 define the strings used as primary and secondary prompts:\r\nimport sys\r\nsys.ps1\r\n'>>> '\r\nsys.ps2\r\n'... '\r\nsys.ps1 = 'C> '\r\nC> print('Yuck!')\r\nYuck!\r\nC>\r\nThese two variables are only defined if the interpreter is in interactive mode.\r\n\r\nThe variable sys.path is a list of strings that determines the interpreter’s search path for modules. It is initialized to a default path taken from the environment variable PYTHONPATH, or from a built-in default if PYTHONPATH is not set. You can modify it using standard list operations:\r\n\r\n>>>\r\nimport sys\r\nsys.path.append('/ufs/guido/lib/python')",
+    "publish": "2023-07-26T13:34:47Z",
+    "created": "2023-07-26T13:35:28.081Z",
+    "updated": "2023-07-26T13:35:28.081Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 11,
+  "fields": {
+    "title": "markdown test",
+    "slug": "markdown-test",
+    "author": 1,
+    "body": "当一个用户请求 Django 站点的一个页面，下面是 Django 系统决定执行哪个 Python 代码使用的算法：\r\n\r\n1. Django 确定使用根 URLconf 模块。通常，这是 ROOT_URLCONF 设置的值，但如果传入 HttpRequest 对象拥有 urlconf 属性（通过中间件设置），它的值将被用来代替 ROOT_URLCONF 设置。\r\nDjango 加载该 Python 模块并寻找可用的 urlpatterns 。它是 django.urls.path() 和(或) django.urls.re_path() 实例的序列(sequence)。\r\n2. Django 会按顺序遍历每个 URL 模式，然后会在所请求的URL匹配到第一个模式后停止，并与 path_info 匹配。\r\n3. 一旦有 URL 匹配成功，Djagno 导入并调用相关的视图，这个视图是一个Python 函数（或基于类的视图 class-based view ）。视图会获得如下参数：\r\n4. 一个 HttpRequest 实例。\r\n如果匹配的 URL 包含未命名组，那么来自正则表达式中的匹配项将作为位置参数提供。\r\n关键字参数由路径表达式匹配的任何命名部分组成，并由 django.urls.path() 或 django.urls.re_path() 的可选 kwargs 参数中指定的任何参数覆盖。\r\n5. 如果没有 URL 被匹配，或者匹配过程中出现了异常，Django 会调用一个适当的错误处理视图。参加下面的错误处理( Error handling )。\r\n\r\n\r\n## 标题2.1\r\n\r\n### 标题3.1\r\n\r\n```python\r\ndef markdown():\r\n    print(\"hello, markdown\")\r\n```\r\n\r\n- hello\r\n- hi\r\n- how are you",
+    "publish": "2023-07-27T00:09:49Z",
+    "created": "2023-07-27T00:11:12.410Z",
+    "updated": "2023-07-27T00:13:36.577Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 7,
+    "name": "wyg",
+    "email": "yangangwang1991@gmail.com",
+    "body": "哎呦，不错哦",
+    "created": "2023-07-26T12:47:10.532Z",
+    "updated": "2023-07-26T12:47:10.532Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 7,
+    "name": "cml",
+    "email": "cml@cml.com",
+    "body": "我也来测试一下",
+    "created": "2023-07-26T12:48:15.811Z",
+    "updated": "2023-07-26T12:48:15.811Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "post": 7,
+    "name": "wsq",
+    "email": "wsq@wsq.com",
+    "body": "我是王思齐，我爱爸爸妈妈，yeah！",
+    "created": "2023-07-26T12:48:55.270Z",
+    "updated": "2023-07-26T12:48:55.270Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "python",
+    "slug": "python"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 11
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+}
+]
